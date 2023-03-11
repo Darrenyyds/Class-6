@@ -58,4 +58,7 @@ function getlessExpensiveProduct(data) {
 }
 console.log(getlessExpensiveProduct(data));
 // Write a function that takes in an array of products and returns the total number of products: getNumberOfProducts(products) => 4
-console.log(data.length);
+const getNumberOfProducts = (data) => {
+  return data.length;
+};
+console.log(getNumberOfProducts(data));
